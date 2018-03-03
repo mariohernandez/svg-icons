@@ -1,0 +1,24 @@
+{
+  "items":[
+    {
+      "icon": "facebook",
+      "url": "#"
+    },
+    {
+      "icon": "twitter",
+      "url": "#"
+    },
+    {
+      "icon": "youtube",
+      "url": "#"
+    },
+    {
+      "icon": "github",
+      "url": "#"
+    },
+    {
+      "icon": "instagram",
+      "url": "#"
+    }
+  ]
+}

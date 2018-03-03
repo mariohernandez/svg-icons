@@ -1,0 +1,14 @@
+{% import "icons.twig" as icons %}
+
+{% if items %}
+  <ul class="social-icons">
+  {% for item in items %}
+    <li class="social-icons__item">
+      <a href="{{ item.url }}" class="social-icons__link">
+        {{ icons.get(item.icon|lower, 'icon icon-' ~ item.icon|lower) }}
+        <span class="social-icons__name">{{ item.icon }}</span>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}

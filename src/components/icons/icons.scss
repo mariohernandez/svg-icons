@@ -1,0 +1,56 @@
+// Icons
+//
+// These icons are used throughout the site.
+//
+// Usage:
+//
+// Import the icons macro.
+//
+// Call the `.get()` function passing it the icon name.
+//
+// (Optional) The second argument is any classes you would like to apply to the svg element.
+//
+// **Example:**
+// ```
+// {% import '@demo_theme/icons/icons.twig' as icons %}
+// {{ icons.get('facebook', 'icon icon--facebook') }}
+// ```
+// This will render the svg inline with whatever class or classes are
+// passed as the second argument.
+// ```
+// <svg aria-hidden="true" role="img" class="icon icon--facebook">...</svg>
+// ```
+//
+// Markup: social-icons.twig
+//
+// Style guide: Icons
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.social-icons {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+.social-icons__item {
+  margin: 0 20px;
+}
+
+.social-icons .icon {
+  fill: #464646;
+
+  &:hover {
+    fill: #fb4d42;
+  }
+}
+
+.social-icons__name {
+  display: block;
+  text-indent: -999999px;
+}
