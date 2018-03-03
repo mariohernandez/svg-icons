@@ -1,6 +1,26 @@
-## Getting Started
+# Embedding SVG icons using a Twig Macro
 
-### Browser Support
+Learn more about [twig macros](https://twig.symfony.com/doc/2.x/tags/macro.html).
+
+## About this theme
+This is a simple Drupal 8 theme which will allow you to test and view the code shared in my blog post.
+
+### Working with the demo_theme theme
+* Place this theme inside your drupal's `/themes/custom/` directory
+* Enable and make the theme your default theme
+
+### Compiling the theme
+* In the command line, navigate to `/themes/custom/demo_theme`
+* Run `nvm use`.  If NVM is not found, run `nvm install`
+* Run `npm install`
+* Run `npm run build`.  This will compile all your theme's code.
+
+### Viewing the social icons
+In order to compile this theme you need to have NVM, NPM and Node installed.
+
+Go to `http://your-site/themes/custom/demo_theme/dist/style-guide/section-icons.html`
+
+## Other information which may be useful
 Autoprefixer & Babel is set to support:
 
 * IE >= 9
